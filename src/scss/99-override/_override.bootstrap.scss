@@ -5,4 +5,9 @@
 .text-primary {
   color: var(--color-primary);
 }
+.container {
+  max-width: 98rem !important;
+  padding: 0 16px !important;
+  margin: 0 auto !important;
+}
 /*! purgecss end ignore */

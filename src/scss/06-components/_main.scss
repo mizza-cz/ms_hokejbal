@@ -1,0 +1,44 @@
+.main {
+  width: 100%;
+  grid-area: main;
+  position: relative;
+  padding: 24px 20px 0 24px;
+  @include media-breakpoint-down(xl) {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  &__row {
+    display: flex;
+  }
+  &__content {
+    max-width: 55rem;
+    width: 100%;
+    padding-right: 24px;
+
+    @include media-breakpoint-down(xl) {
+      max-width: 100%;
+      padding-right: 0;
+    }
+  }
+  aside {
+    max-width: 22.1rem;
+    width: 100%;
+  }
+}
+.wrapper {
+  display: grid;
+  width: 100%;
+  grid-template-rows: max-content;
+  grid-template-areas:
+    "nav header"
+    "nav main"
+    "nav footer";
+  grid-template-columns: 17rem 1fr;
+  height: 100vh;
+  margin: 0;
+  @include media-breakpoint-down(xl) {
+    display: flex;
+    flex-direction: column;
+  }
+}

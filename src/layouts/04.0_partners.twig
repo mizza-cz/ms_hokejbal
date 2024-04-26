@@ -1,0 +1,18 @@
+{% extends "@components/base/base.twig" %} {% set title = "04.0_partners" %} {%
+block main %}
+<div class="container">
+  <div class="wrapper">
+    {% include "@components/header/header.twig" %} {% include
+    "@components/header/topHeader.twig" %}
+    <main class="main" aria-label="Hlavní obsah">
+      <div class="main__row">
+        <div class="main__content">
+          {% include "@components/topstory-section/topstory-section.twig" %}
+        </div>
+        {% include "@components/aside/aside.twig" %}
+      </div>
+    </main>
+  </div>
+</div>
+
+{% endblock %}

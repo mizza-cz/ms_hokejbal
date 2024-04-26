@@ -1,0 +1,114 @@
+.footer {
+  padding-top: 24px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 20px;
+  grid-area: footer;
+  @include media-breakpoint-down(xl) {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 24px;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    @include media-breakpoint-down(xl) {
+      flex-direction: column;
+    }
+    .p3 {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 15.6px;
+
+      color: var(--blue);
+      display: flex;
+      align-items: center;
+      @include media-breakpoint-down(xl) {
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+      }
+      a {
+        padding: 0 8px;
+      }
+    }
+    &-links {
+      display: flex;
+      margin-left: -20px;
+      margin-right: -20px;
+      flex-wrap: wrap;
+      @include media-breakpoint-down(xl) {
+        width: 100%;
+        justify-content: center;
+      }
+
+      li {
+        padding: 0 20px;
+      }
+      a {
+        color: var(--blue);
+        text-decoration-color: transparent;
+        transition: all 0.3s;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+        &:hover {
+          text-decoration-color: inherit;
+        }
+      }
+    }
+  }
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -20px;
+    margin-right: -20px;
+
+    @include media-breakpoint-down(xl) {
+      margin-bottom: 20px;
+      justify-content: center;
+    }
+
+    li {
+      padding: 0 20px;
+      margin-bottom: 20px;
+      @include media-breakpoint-down(lg) {
+        padding: 0 20px;
+        margin-bottom: 10px;
+      }
+    }
+    a {
+      text-decoration-color: transparent;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      line-height: 17.86px;
+      color: var(--color-red);
+
+      &:hover {
+        text-decoration-color: inherit;
+      }
+    }
+  }
+
+  &__logo {
+    z-index: 999;
+    margin-bottom: 32px;
+    display: block;
+    @include media-breakpoint-down(xl) {
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+    }
+    svg,
+    img {
+      width: 220px;
+      height: 74px;
+      display: block;
+      object-fit: contain;
+    }
+  }
+}
