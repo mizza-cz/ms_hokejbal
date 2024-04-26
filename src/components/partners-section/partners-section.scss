@@ -1,0 +1,17 @@
+.partners-section {
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-light);
+    padding: 1rem;
+    border-radius: 8px;
+    aspect-ratio: 273/160;
+    img {
+      width: 100%;
+      max-height: 100px;
+      object-fit: contain;
+    }
+  }
+}

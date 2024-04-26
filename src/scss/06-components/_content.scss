@@ -33,6 +33,7 @@
   font-size: 40px;
   font-weight: 700;
   line-height: 44px;
+  color: var(--blue);
   @include media-breakpoint-down(xxl) {
     font-size: 32px;
     line-height: 125%;
@@ -40,9 +41,10 @@
 }
 .h2,
 .o-content h2 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 32px;
   line-height: 32px;
+  color: var(--blue);
   @include media-breakpoint-down(lg) {
     font-size: 24px;
     line-height: 125%;
@@ -89,4 +91,20 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 22.4px;
+}
+
+.decoreTitle {
+  padding-right: 20px;
+  position: relative;
+  width: fit-content;
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-red);
+  }
 }
