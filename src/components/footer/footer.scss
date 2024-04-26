@@ -5,12 +5,12 @@
   grid-area: footer;
   height: fit-content;
   margin-top: auto;
-  margin-top: 68px;
+  padding-top: 68px;
   @include media-breakpoint-down(xl) {
     padding-right: 0;
     padding-left: 0;
     padding-bottom: 24px;
-    margin-top: 40px;
+    padding-top: 40px;
   }
   &__bottom {
     display: flex;

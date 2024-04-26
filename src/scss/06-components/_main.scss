@@ -29,7 +29,7 @@
 .wrapper {
   display: grid;
   width: 100%;
-  grid-template-rows: max-content;
+  grid-template-rows: max-content 1fr auto;
   grid-template-areas:
     "nav header"
     "nav main"

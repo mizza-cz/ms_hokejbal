@@ -10,6 +10,11 @@
   > :last-child {
     margin-bottom: 0;
   }
+  .table {
+    @include media-breakpoint-down(lg) {
+      min-width: 400px;
+    }
+  }
   .perex {
     margin-bottom: 56px;
     @include media-breakpoint-down(lg) {
