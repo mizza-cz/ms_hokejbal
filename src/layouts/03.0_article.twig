@@ -1,20 +1,21 @@
 {% extends "@components/base/base.twig" %} {% set title = "03.0_article" %} {%
 block main %}
+
 <div class="container">
   <div class="wrapper">
-    {% include "@components/header/header.twig" %} {% include
-    "@components/header/topHeader.twig" %}
-    <main class="main" aria-label="Hlavní obsah">
-      <div class="main__row full-content">
-        <div class="main__content">
+    {% include "@components/header/header.twig" %}
+    <div class="wrapper__content">
+      {% include "@components/header/topHeader.twig" %}
+
+      <main class="main" aria-label="Hlavní obsah">
+        <div class="main__row full-width">
           {% include "@components/topstory-section/topstory-section-2.twig" %}
           {% include "@components/article-section/article-section.twig" %}
         </div>
-        {% include "@components/aside/aside.twig" %}
-      </div>
-    </main>
-    {% include "@components/footer/footer.twig" %}
+      </main>
+      {% include "@components/sliderPartners/sliderPartners.twig" %} {% include
+      "@components/footer/footer.twig" %}
+    </div>
   </div>
 </div>
-
 {% endblock %}

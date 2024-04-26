@@ -1,0 +1,12 @@
+.redMode {
+  .main,
+  .wrapper::before,
+  .wrapper::after,
+  .topHeader,
+  .header__inner {
+    background: var(--color-red);
+  }
+  .dropdown-toggle::before {
+    background-image: url("../images/ico/plus-blue.svg");
+  }
+}

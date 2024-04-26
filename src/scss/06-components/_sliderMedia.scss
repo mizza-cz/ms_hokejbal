@@ -1,0 +1,40 @@
+.sliderHeader {
+  padding-right: 90px;
+}
+.sliderMedia {
+  margin-top: 16px;
+  li {
+    padding: 0 8px;
+  }
+
+  .slider__btn {
+    position: absolute;
+    right: 0;
+    top: -40px;
+    border: 1px solid var(--color-red);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: all 0.3s;
+    margin: 0;
+
+    img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+    }
+  }
+  .slider__btnprev {
+    right: 48px;
+  }
+  .slider__btnnext {
+    top: -24px !important;
+    right: 8px;
+  }
+  .slider__btn.slick-disabled {
+    opacity: 0.4;
+  }
+}

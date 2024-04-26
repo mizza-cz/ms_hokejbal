@@ -11,6 +11,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 figure,
 blockquote,
@@ -28,6 +30,7 @@ ol[role="list"] {
 // Prevent adjustments of font size after orientation changes in iOS.
 html {
   -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
 }
 
 /* Set core root defaults */
@@ -40,7 +43,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-
 }
 
 /* A elements that don't have a class get default styles */

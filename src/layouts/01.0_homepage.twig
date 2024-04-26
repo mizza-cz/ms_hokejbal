@@ -2,17 +2,51 @@
 block main %}
 <div class="container">
   <div class="wrapper">
-    {% include "@components/header/header.twig" %} {% include
-    "@components/header/topHeader.twig" %}
-    <main class="main" aria-label="Hlavní obsah">
-      <div class="main__row">
-        <div class="main__content">
-          {% include "@components/topstory-section/topstory-section.twig" %}
+    {% include "@components/header/header.twig" %}
+    <div class="wrapper__content">
+      {% include "@components/header/topHeader.twig" %}
+
+      <main class="main" aria-label="Hlavní obsah">
+        <div class="main__row">
+          <div class="main__content">
+            {% include "@components/topstory-section/topstory-section.twig" %}
+            {% include "@components/videos-section/videos-section.twig" %} {%
+            include "@components/news-section/news-section.twig" %}
+
+            <div class="row g-4">
+              <div class="col-xxl-6">
+                <h3 class="h2 mb-3">Novinky</h3>
+                <div class="">
+                  {% include "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %} {% include
+                  "@components/news/news.twig" %}
+                </div>
+              </div>
+              <div class="col-xxl-6">
+                <h3 class="h2 mb-3">Tabulky</h3>
+                {% include "@components/hp-table/hp-table.twig" %} {% include
+                "@components/hp-table/hp-table.twig" %} {% include
+                "@components/hp-table/hp-table.twig" %} {% include
+                "@components/hp-table/hp-table.twig" %}
+              </div>
+            </div>
+          </div>
+          {% include "@components/aside/aside.twig" %}
         </div>
-        {% include "@components/aside/aside.twig" %}
-      </div>
-    </main>
-    {% include "@components/footer/footer.twig" %}
+      </main>
+      {% include "@components/sliderPartners/sliderPartners.twig" %} {% include
+      "@components/footer/footer.twig" %}
+    </div>
   </div>
 </div>
 

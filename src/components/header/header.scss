@@ -1,6 +1,9 @@
 .header {
-  height: 100%;
-  grid-area: nav;
+  width: 260px;
+  max-width: 260px;
+  min-width: 260px;
+  position: relative;
+  z-index: 9999;
   @include media-breakpoint-down(xl) {
     display: none;
     height: 100%;
@@ -56,7 +59,7 @@
     left: -14px;
     right: 0;
     transition: all 0.3s;
-    
+
     &:hover {
       transform: scale(1.1);
     }
@@ -290,6 +293,3 @@
     height: 100%;
   }
 }
-
-
- 

@@ -1,17 +1,93 @@
 {% extends "@components/base/base.twig" %} {% set title = "01.0_homepage" %} {%
 block main %}
-<div class="container">
-  <div class="wrapper">
-    {% include "@components/header/header.twig" %} {% include
-    "@components/header/topHeader.twig" %}
-    <main class="main" aria-label="Hlavní obsah">
-      <div class="main__row">
-        <div class="main__content">
-          {% include "@components/topstory-section/topstory-section.twig" %}
+<div class="redMode">
+  <div class="container">
+    <div class="wrapper">
+      {% include "@components/header/header.twig" %}
+      <div class="wrapper__content">
+        <div class="topHeader">
+          <div class="topHeader__inner">
+            <div class="button-left">
+              <a href="#" id="show-menu"
+                ><img src="images/ico/menu.svg" /> Menu</a
+              >
+              <a href="#" id="hide-menu"
+                ><img src="images/ico/menu.svg" /> Zavřít</a
+              >
+            </div>
+            <a href="#" class="topHeader__logo--mob" id="logo"
+              ><img src="images/ico/logo.svg"
+            /></a>
+            <div class="button-right">
+              <a href="#" id="show-more"
+                >Více <img src="images/ico/plus-menu.svg"
+              /></a>
+              <a href="#" id="hide-more"
+                >Zavřít <img src="images/ico/plus-menu.svg"
+              /></a>
+            </div>
+
+            <div class="topHeader__left">
+              <a href="#" class="topHeader__logo">
+                <img src="images/ico/topHeader-logo.svg" alt="logo" />
+              </a>
+              <ul class="topHeader__sex">
+                <li>
+                  <a class=" " href="#">Muži</a>
+                </li>
+                <li>
+                  <a class="active" href="#">Ženy</a>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="topHeader__news">
+              Vstupenky v prodeji od 20. března na pokladnách arény abc
+            </a>
+          </div>
         </div>
-        {% include "@components/aside/aside.twig" %}
+
+        <main class="main" aria-label="Hlavní obsah">
+          <div class="main__row">
+            <div class="main__content">
+              {% include "@components/topstory-section/topstory-section.twig" %}
+              {% include "@components/videos-section/videos-section.twig" %} {%
+              include "@components/news-section/news-section.twig" %}
+
+              <div class="row g-4">
+                <div class="col-xxl-6">
+                  <h3 class="h2 mb-3">Novinky</h3>
+                  <div class="">
+                    {% include "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %} {% include
+                    "@components/news/news.twig" %}
+                  </div>
+                </div>
+                <div class="col-xxl-6">
+                  <h3 class="h2 mb-3">Tabulky</h3>
+                  {% include "@components/hp-table/hp-table.twig" %} {% include
+                  "@components/hp-table/hp-table.twig" %} {% include
+                  "@components/hp-table/hp-table.twig" %} {% include
+                  "@components/hp-table/hp-table.twig" %}
+                </div>
+              </div>
+            </div>
+            {% include "@components/aside/aside.twig" %}
+          </div>
+        </main>
+        {% include "@components/sliderPartners/sliderPartners.twig" %} {%
+        include "@components/footer/footer.twig" %}
       </div>
-    </main>
+    </div>
   </div>
 </div>
 
