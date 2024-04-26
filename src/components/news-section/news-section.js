@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".sliderVideo").slick({
+  $(".sliderNews").slick({
     slidesToShow: 2,
     slidesToScroll: 2,
     arrows: true,

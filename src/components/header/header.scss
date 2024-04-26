@@ -4,6 +4,27 @@
   min-width: 260px;
   position: relative;
   z-index: 9999;
+  &__sex {
+    display: none;
+
+    text-align: left;
+    width: 100%;
+    color: var(--color-red);
+    padding-left: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-decoration-color: transparent;
+    position: relative;
+    z-index: 10;
+    &:hover {
+      text-decoration-color: inherit;
+    }
+    @include media-breakpoint-down(xl) {
+      display: block;
+      margin-top: 12px;
+    }
+  }
   @include media-breakpoint-down(xl) {
     display: none;
     height: 100%;

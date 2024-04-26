@@ -10,6 +10,9 @@
     align-items: center;
     border-radius: 12px;
     overflow: hidden;
+    @include media-breakpoint-down(md) {
+      aspect-ratio: 240/140;
+    }
     &:hover {
       img {
         transform: scale(1.1);
@@ -42,12 +45,18 @@
     right: 0;
     width: 100%;
     z-index: 10;
+    @include media-breakpoint-down(md) {
+      padding: 16px;
+    }
   }
   &__tags {
     display: flex;
     align-items: center;
     gap: 32px 16px;
     margin-bottom: 4px;
+    li {
+      padding: 0;
+    }
     .p3 {
       color: var(--color-light);
       font-size: 12px;

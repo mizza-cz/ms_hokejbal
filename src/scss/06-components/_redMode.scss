@@ -6,7 +6,14 @@
   .header__inner {
     background: var(--color-red);
   }
+  .header__sex {
+    color: var(--color-dark-blue);
+  }
   .dropdown-toggle::before {
     background-image: url("../images/ico/plus-blue.svg");
+  }
+  .topHeader .button-right a,
+  .topHeader .button-left a {
+    color: var(--blue);
   }
 }

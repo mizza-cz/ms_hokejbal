@@ -5,9 +5,9 @@ $(".sliderPartners__inner").slick({
   arrows: true,
   infinite: false,
   prevArrow:
-    ' <button class="slider__btn  slider__btnprev"><img src="/images/ico/arrow-left.svg" alt = "" ></button>',
+    ' <button class="slider__btn  slider__btnprev"><img src="images/ico/arrow-left.svg" alt = "" ></button>',
   nextArrow:
-    ' <button class="slider__btn  slider__btnnext"><img src="/images/ico/arrow-right.svg" alt = "" ></button>',
+    ' <button class="slider__btn  slider__btnnext"><img src="images/ico/arrow-right.svg" alt = "" ></button>',
   responsive: [
     {
       breakpoint: 640,
