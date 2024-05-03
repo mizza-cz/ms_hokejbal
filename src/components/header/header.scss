@@ -134,7 +134,8 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 17.86px;
-
+  background-color: transparent !important;
+  &:active,
   &:focus,
   &:hover {
     text-decoration: underline;
@@ -180,6 +181,7 @@
     padding: 10px 10px;
     width: 237px;
     transform: translate(242px, 0px);
+
     @include media-breakpoint-down(xl) {
       position: relative !important;
       left: 0;
@@ -188,6 +190,8 @@
       border-left: none;
       width: 100%;
       box-shadow: none;
+      background-color: transparent;
+      padding-top: 0;
     }
     &::before {
       content: "";
@@ -222,14 +226,16 @@
     padding: 8px 16px;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 120%;
     color: var(--color-dark-blue);
     @include media-breakpoint-down(xl) {
-      border-bottom: 1px solid var(--color-border);
-      text-align: center;
       padding-left: 0;
       padding-right: 0;
+      color: var(--color-light);
+      text-align: left;
+      padding-left: 12px;
+      font-size: 0.875rem;
     }
   }
 }

@@ -1,0 +1,595 @@
+{% extends "@components/base/base.twig" %} {% set title = "12.0_gallery" %} {%
+block main %}
+
+<div class="container">
+  <div class="wrapper">
+    {% include "@components/header/header.twig" %}
+    <div class="wrapper__content">
+      {% include "@components/header/topHeader.twig" %}
+
+      <main class="main" aria-label="Hlavní obsah">
+        <div class="main__row full-width">
+          <section class="archive-section">
+            <h1 class="h1 mb-24 decoreTitle">Fotogalerie</h1>
+            <div class="menuSection">
+              <div class="searchMenu">
+                <form action="">
+                  <div class="row">
+                    <div class="col-9">
+                      <input
+                        type="text"
+                        placeholder="Vyhledejte v článcích podle názvu, datumu,..."
+                      />
+                    </div>
+                    <div class="col-3">
+                      <button>Hledat</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="archive-section__inner">
+              <ul class="row g-3 archive-section-js">
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/post.jpeg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-4 col-md-6">
+                  <a
+                    data-source="/ms_hokejbal/build/ajax-gallery.json"
+                    data-gallery-id="1"
+                    href="#"
+                    class="news-section__item"
+                  >
+                    <img src="images/content/article-2.jpg" alt="news" />
+                    <div class="news-section__info">
+                      <ul class="news-section__tags">
+                        <li>
+                          <h4 class="h6 text-red">info z turnaje</h4>
+                        </li>
+                        <li>
+                          <p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+                        </li>
+                      </ul>
+                      <div class="news-section__title">
+                        Kanada odhalila reprezentační soupisku pro nadcházející
+                        mistrovství světa
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <button class="moreButton">Načíst další</button>
+            </div>
+          </section>
+        </div>
+      </main>
+      {% include "@components/footer/footer.twig" %}
+    </div>
+  </div>
+</div>
+{% endblock %}
