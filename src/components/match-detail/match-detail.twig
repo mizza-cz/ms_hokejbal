@@ -6,7 +6,9 @@
           <a href="#reportaz" data-toggle="tab">Reportáž </a>
         </li>
         <li>
-          <a href="#statsgame" data-toggle="tab">Statistiky utkání</a>
+          <a class="active" href="#statsgame" data-toggle="tab"
+            >Statistiky utkání</a
+          >
         </li>
         <li>
           <a class=" " href="#statsplayer" data-toggle="tab"
@@ -20,9 +22,7 @@
           <a href="#video" data-toggle="tab">Video </a>
         </li>
         <li>
-          <a class="active" href="#fotogalerie" data-toggle="tab"
-            >Fotogalerie
-          </a>
+          <a class=" " href="#fotogalerie" data-toggle="tab">Fotogalerie </a>
         </li>
       </ul>
     </div>
@@ -68,7 +68,101 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane fade" id="statsgame">statsgame</div>
+    <div class="tab-pane in active" id="statsgame">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 col-sm-11 mx-auto">
+          <div class="statsGame">
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">3</div>
+              <div class="statsGame__line">
+                <span style="width: 23%" class="statsGame__value"></span>
+              </div>
+            </div>
+            <div class="statsGame__line-title">Vyloučení</div>
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">4</div>
+              <div class="statsGame__line">
+                <span style="width: 65%" class="statsGame__value"></span>
+              </div>
+            </div>
+          </div>
+          <div class="statsGame">
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">4</div>
+              <div class="statsGame__line">
+                <span style="width: 100%" class="statsGame__value"></span>
+              </div>
+            </div>
+            <div class="statsGame__line-title">Využití</div>
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">0</div>
+              <div class="statsGame__line">
+                <span style="width: 0%" class="statsGame__value"></span>
+              </div>
+            </div>
+          </div>
+          <div class="statsGame">
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">3</div>
+              <div class="statsGame__line">
+                <span style="width: 0%" class="statsGame__value"></span>
+              </div>
+            </div>
+            <div class="statsGame__line-title">Oslabení</div>
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">4</div>
+              <div class="statsGame__line">
+                <span style="width: 0%" class="statsGame__value"></span>
+              </div>
+            </div>
+          </div>
+          <div class="statsGame">
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">21</div>
+              <div class="statsGame__line">
+                <span style="width: 75%" class="statsGame__value"></span>
+              </div>
+            </div>
+            <div class="statsGame__line-title">Střely na branku</div>
+            <div class="statsGame__infoline">
+              <div class="statsGame__number">4</div>
+              <div class="statsGame__line">
+                <span style="width: 10%" class="statsGame__value"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-lg-6">
+              <div class="match-detail__statistics">
+                <span>Česko </span>
+                <p>
+                  Novotný (Foršt) – Teinitzer, Geisler, Školoudík, Kastner,
+                  Chramosta, Kaňák, Kamenář, Laurinc, Kovárník – Vaniš,
+                  Procházka, Štěpánek, Stupka, Jágr, Kucharčík, Janeček, Licek,
+                  Lhota, Čejka, Macháček, Langr
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="match-detail__statistics">
+                <span>Velká Británie</span>
+                <p>
+                  Neish (16. Hickton) – Howie, Luknar, Jackson, Clayton,
+                  Beasley, Phillips, Karmali – Holicka, Gallagher, Bolstridge,
+                  Sire, Lewis, Rae, Ray, Ch. Mohr, Bonewell, S. Mohr, Cox, Paget
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="match-detail__statistics">
+                <span>Rozhodčí</span>
+                <p>Aerni, Bogáň</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="tab-pane fade" id="statsplayer">
       <div class="row">
         <div class="col-lg-8 col-md-10 col-sm-11 mx-auto">
@@ -495,7 +589,7 @@
         </div>
       </div>
     </div>
-    <div class="tab-pane in active" id="fotogalerie">
+    <div class="tab-pane fade" id="fotogalerie">
       <div class="match-detail__photogallery">
         <div class="row g-3">
           <div class="col-lg-3 col-sm-6">

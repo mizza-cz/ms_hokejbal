@@ -1,4 +1,23 @@
 .match-detail {
+  &__statistics {
+    padding: 24px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    height: 100%;
+    span {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16.8px;
+      margin-bottom: 16px;
+    }
+    p {
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.6px;
+    }
+  }
   &__tabs {
     display: flex;
     align-items: center;
@@ -72,5 +91,64 @@
     height: 100%;
     object-fit: cover;
     transition: all 0.3s;
+  }
+}
+
+/// statsGame
+.statsGame {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  position: relative;
+  gap: 4px;
+  margin-bottom: 48px;
+  @include media-breakpoint-down(lg) {
+    margin-bottom: 32px;
+  }
+  &__infoline {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .statsGame__infoline:first-child .statsGame__value {
+    background: var(--blue);
+    margin-left: auto;
+  }
+  .statsGame__infoline:last-child .statsGame__value {
+    background: var(--color-dark-red);
+  }
+  .statsGame__infoline:first-child .statsGame__number {
+    color: var(--blue);
+    text-align: right;
+    padding-right: 64px;
+  }
+  .statsGame__infoline:last-child .statsGame__number {
+    color: var(--color-dark-red);
+    padding-left: 64px;
+  }
+  &__number {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    margin-bottom: 4px;
+  }
+  &__line-title {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  &__line {
+    background: rgba(35, 35, 74, 0.1);
+    height: 8px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  &__value {
+    height: 100%;
+    display: block;
   }
 }
