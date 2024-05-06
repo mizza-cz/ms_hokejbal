@@ -129,19 +129,23 @@
   left: 0px;
   font-size: 14px;
   font-weight: 700;
-  color: #e02a15;
+  color: var(--color-light);
   text-transform: uppercase;
   inset-block: auto;
 }
 .topHeader .button-left a {
   font-size: 14px;
   font-weight: 700;
-  color: #e02a15;
+  color: var(--color-light);
   text-transform: uppercase;
+  display: inline;
 }
 .topHeader .button-left img {
   width: 30px;
   margin-right: 5px;
+  background: #fff;
+  border-radius: 100%;
+  border: none;
 }
 .topHeader .button-right {
   position: absolute;
@@ -150,18 +154,22 @@
   inset-block: auto;
   font-size: 14px;
   font-weight: 700;
-  color: #e02a15;
+  color: var(--color-light);
   text-transform: uppercase;
 }
 .topHeader .button-right a {
   font-size: 14px;
   font-weight: 700;
-  color: #e02a15;
+  color: var(--color-light);
   text-transform: uppercase;
+  display: inline;
 }
 .topHeader .button-right img {
   width: 30px;
   margin-left: 5px;
+  background: #fff;
+  border-radius: 100%;
+  transition: all 0.3s;
 }
 .topHeader #hide-menu,
 .topHeader #hide-more {

@@ -421,7 +421,7 @@ aside .aside-box .nav-list .dropdown-item:hover:after {
 .show-more aside {
   display: block;
   position: absolute;
-  display: block;
+  display: block !important;
   z-index: 10000;
   right: 0;
   top: 0px;
@@ -472,10 +472,6 @@ aside .aside-box .nav-list .dropdown-item:hover:after {
 .automatic {
   display: flex;
   gap: 8px;
-  li:first-child [role="tab"] {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 }
 .filtr-container {
   display: block;

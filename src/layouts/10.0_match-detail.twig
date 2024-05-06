@@ -9,8 +9,11 @@
 
       <main class="main" aria-label="Hlavní obsah">
         <div class="main__row full-width">
-          {% include "@components/match-section/match-section.twig" %} {%
-          include "@components/match-detail/match-detail.twig" %}
+          <div class="main__content">
+            {% include "@components/match-section/match-section.twig" %} {%
+            include "@components/match-detail/match-detail.twig" %}
+          </div>
+          {% include "@components/aside/aside.twig" %}
         </div>
       </main>
       {% include "@components/footer/footer.twig" %}

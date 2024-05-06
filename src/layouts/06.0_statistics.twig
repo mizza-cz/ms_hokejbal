@@ -9,7 +9,10 @@
 
       <main class="main" aria-label="Hlavní obsah">
         <div class="main__row full-width">
-          {% include "@components/statistics-section/statistics-section.twig" %}
+          <div class="main__content">
+            {% include "@components/statistics-section/statistics-section.twig" %}
+          </div>
+          {% include "@components/aside/aside.twig" %}
         </div>
       </main>
       {% include "@components/footer/footer.twig" %}

@@ -191,13 +191,13 @@
 					<div class="topHeader">
 						<div class="topHeader__inner">
 							<div class="button-left">
-								<a href="#" id="show-menu"><img src="images/ico/menu.svg" /> Menu</a>
-								<a href="#" id="hide-menu"><img src="images/ico/menu.svg" /> Zavřít</a>
+								<a href="#" id="show-menu"><img src="images/ico/menu-blue.svg" /> Menu</a>
+								<a href="#" id="hide-menu"><img src="images/ico/xmark.svg" /> Zavřít</a>
 							</div>
 							<a href="#" class="topHeader__logo--mob" id="logo"><img src="images/ico/logo.svg" /></a>
 							<div class="button-right">
-								<a href="#" id="show-more">Více <img src="images/ico/plus-menu.svg" /></a>
-								<a href="#" id="hide-more">Zavřít <img src="images/ico/plus-menu.svg" /></a>
+								<a href="#" id="show-more">Rozpis zápasů <img src="images/ico/plus-menu-blue.svg" /></a>
+								<a href="#" id="hide-more">Zavřít <img src="images/ico/minus.svg" /></a>
 							</div>
 
 							<div class="topHeader__left">
@@ -221,275 +221,991 @@
 
 					<main class="main" aria-label="Hlavní obsah">
 						<div class="main__row full-width">
-							<section class="players-section">
-								<h1 class="h1 mb-24 decoreTitle">Soupiska</h1>
-								<div class="menuSection">
-									<label class="o-select header-section__label">
-										<select class="js-select">
-											<option>všechny Týmy</option>
-											<option>CZE</option>
-											<option>GBA</option>
-											<option>SVK</option>
-											<option>CZE</option>
-											<option>GBA</option>
-											<option>SVK</option>
-											<option>CZE</option>
-											<option>GBA</option>
-											<option>SVK</option>
-										</select>
-									</label>
-									<div class="tabsHeader">
-										<ul class="tabsHeader__menu">
-											<li>
-												<a class="active" href="#">všechny </a>
-											</li>
-											<li>
-												<a href="#">Brankáři</a>
-											</li>
-											<li>
-												<a href="#">V poli</a>
-											</li>
-											<li>
-												<a href="#">Obránci</a>
-											</li>
-											<li>
-												<a href="#">Útočníci</a>
-											</li>
-										</ul>
+							<div class="main__content">
+								<section class="players-section">
+									<h1 class="h1 mb-24 decoreTitle">Soupiska</h1>
+									<div class="menuSection">
+										<label class="o-select header-section__label">
+											<select class="js-select">
+												<option>všechny Týmy</option>
+												<option>CZE</option>
+												<option>GBA</option>
+												<option>SVK</option>
+												<option>CZE</option>
+												<option>GBA</option>
+												<option>SVK</option>
+												<option>CZE</option>
+												<option>GBA</option>
+												<option>SVK</option>
+											</select>
+										</label>
+										<div class="tabsHeader">
+											<ul class="tabsHeader__menu">
+												<li>
+													<a class="active" href="#">všechny </a>
+												</li>
+												<li>
+													<a href="#">Brankáři</a>
+												</li>
+												<li>
+													<a href="#">V poli</a>
+												</li>
+												<li>
+													<a href="#">Obránci</a>
+												</li>
+												<li>
+													<a href="#">Útočníci</a>
+												</li>
+											</ul>
+										</div>
 									</div>
-								</div>
-								<h2 class="h3 players-section__state">
-									<span><img src="images/ico/canada.svg" alt="flag" /></span>Kanada
-								</h2>
-								<div class="statistics-section__inner">
-									<div class="o-content">
-										<table>
-											<thead>
-												<tr>
-													<th></th>
+									<h2 class="h3 players-section__state">
+										<span><img src="images/ico/canada.svg" alt="flag" /></span>Kanada
+									</h2>
+									<div class="statistics-section__inner">
+										<div class="o-content">
+											<table>
+												<thead>
+													<tr>
+														<th></th>
 
-													<th class="avatar"><strong>Brankáři</strong></th>
-													<th></th>
-													<th><strong>Věk</strong></th>
-													<th>Hůl</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-											</tbody>
-										</table>
+														<th class="avatar"><strong>Brankáři</strong></th>
+														<th></th>
+														<th><strong>Věk</strong></th>
+														<th>Hůl</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
-								</div>
-								<div class="statistics-section__inner">
-									<div class="o-content">
-										<table>
-											<thead>
-												<tr>
-													<th></th>
+									<div class="statistics-section__inner">
+										<div class="o-content">
+											<table>
+												<thead>
+													<tr>
+														<th></th>
 
-													<th class="avatar"><strong>Obránci</strong></th>
-													<th></th>
-													<th><strong>Věk</strong></th>
-													<th>Hůl</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-											</tbody>
-										</table>
+														<th class="avatar"><strong>Obránci</strong></th>
+														<th></th>
+														<th><strong>Věk</strong></th>
+														<th>Hůl</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
-								</div>
-								<div class="statistics-section__inner">
-									<div class="o-content">
-										<table>
-											<thead>
-												<tr>
-													<th></th>
+									<div class="statistics-section__inner">
+										<div class="o-content">
+											<table>
+												<thead>
+													<tr>
+														<th></th>
 
-													<th class="avatar"><strong>Útočníci</strong></th>
-													<th></th>
-													<th><strong>Věk</strong></th>
-													<th>Hůl</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-											</tbody>
-										</table>
+														<th class="avatar"><strong>Útočníci</strong></th>
+														<th></th>
+														<th><strong>Věk</strong></th>
+														<th>Hůl</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
-								</div>
-								<div class="statistics-section__inner">
-									<div class="o-content">
-										<table>
-											<thead>
-												<tr>
-													<th></th>
+									<div class="statistics-section__inner">
+										<div class="o-content">
+											<table>
+												<thead>
+													<tr>
+														<th></th>
 
-													<th class="avatar"><strong>V poli</strong></th>
-													<th></th>
-													<th><strong>Věk</strong></th>
-													<th>Hůl</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-												<tr>
-													<td><strong>1</strong></td>
-													<td>
-														<div class="avatar">
-															<img src="images/content/ava.png" alt="" />
-														</div>
-													</td>
-													<td>
-														<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
-													</td>
-													<td>22</td>
-													<td>54</td>
-												</tr>
-											</tbody>
-										</table>
+														<th class="avatar"><strong>V poli</strong></th>
+														<th></th>
+														<th><strong>Věk</strong></th>
+														<th>Hůl</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+													<tr>
+														<td><strong>1</strong></td>
+														<td>
+															<div class="avatar">
+																<img src="images/content/ava.png" alt="" />
+															</div>
+														</td>
+														<td>
+															<a class="text-red" href="#"><strong>Karel Skočdopole</strong></a>
+														</td>
+														<td>22</td>
+														<td>54</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
 									</div>
-								</div>
-							</section>
+								</section>
+							</div>
+							<aside class="aside">
+								<!-- Nav tabs -->
+								<div class="hp-tabs-section">
+									<ul class="tabs">
+										<li class="">
+											<a class="tab active" data-id="cz" href="#">CZ</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="vcera" href="#">včera</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="dnes" href="#">Dnes</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="zitra" href="#">zítra</a>
+										</li>
+									</ul>
+									<div class="tabs-wrapper">
+										<!-- tab 1  -->
+										<div id="cz" class="tab-content tab-active">
+											<ul class="automatic filter-menu" role="tablist" aria-labelledby="tablist-1">
+
+												<li>
+													<button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1">všechny </button>
+												</li>
+												<li>
+													<button id="tab-2" type="button" role="tab" aria-selected="false" tabindex="-1" aria-controls="tabpanel-2"> A</button>
+												</li>
+												<li>
+													<button id="tab-3" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-3" tabindex="-1">B</button>
+												</li>
+												<li>
+													<button id="tab-4" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1">C </button>
+												</li>
+
+												<li>
+													<button id="tab-5" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-5" tabindex="-1">D </button>
+												</li>
+											</ul>
+											<div class="filter-content__wrapper">
+												<div class="filtr-container" id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13 <span>(pr)</span></div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/de.svg" /><br />Německo
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/de.svg" /> <br />Německo
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-5" role="tabpanel" tabindex="0" aria-labelledby="tab-5">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+											</div>
+
+										</div>
+
+									</div>
+							</aside>
 						</div>
 					</main>
 					<footer class="footer">

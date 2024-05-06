@@ -20,6 +20,14 @@
     flex-direction: column;
     max-width: 100%;
     width: 100%;
+    .aside {
+      display: none;
+    }
+    .main__content {
+      max-width: 100%;
+      padding-right: 0;
+      flex: 100%;
+    }
   }
   &__content {
     max-width: 72.5%;
@@ -43,24 +51,30 @@
   display: flex;
   width: 100%;
   margin: 0;
-  overflow-x: hidden;
+  position: relative;
   align-items: stretch;
   &::before,
   &::after {
     content: "";
     position: absolute;
     top: 0;
-    width: 3000px;
+    width: 3400px;
     background-color: var(--light-blue);
     height: 76px;
     @include media-breakpoint-down(xl) {
       height: 60px;
     }
   }
+
   &::before {
+    height: 100%;
+    width: 100%;
+    display: block;
+    width: 100%;
+    right: auto;
+    left: -100%;
     @include media-breakpoint-down(xl) {
       display: block;
-      left: -100%;
     }
   }
   &::after {

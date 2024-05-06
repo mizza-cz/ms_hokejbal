@@ -191,13 +191,13 @@
 					<div class="topHeader">
 						<div class="topHeader__inner">
 							<div class="button-left">
-								<a href="#" id="show-menu"><img src="images/ico/menu.svg" /> Menu</a>
-								<a href="#" id="hide-menu"><img src="images/ico/menu.svg" /> Zavřít</a>
+								<a href="#" id="show-menu"><img src="images/ico/menu-blue.svg" /> Menu</a>
+								<a href="#" id="hide-menu"><img src="images/ico/xmark.svg" /> Zavřít</a>
 							</div>
 							<a href="#" class="topHeader__logo--mob" id="logo"><img src="images/ico/logo.svg" /></a>
 							<div class="button-right">
-								<a href="#" id="show-more">Více <img src="images/ico/plus-menu.svg" /></a>
-								<a href="#" id="hide-more">Zavřít <img src="images/ico/plus-menu.svg" /></a>
+								<a href="#" id="show-more">Rozpis zápasů <img src="images/ico/plus-menu-blue.svg" /></a>
+								<a href="#" id="hide-more">Zavřít <img src="images/ico/minus.svg" /></a>
 							</div>
 
 							<div class="topHeader__left">
@@ -221,351 +221,1067 @@
 
 					<main class="main" aria-label="Hlavní obsah">
 						<div class="main__row full-width">
-							<section class="matches-section">
-								<h1 class="h1 mb-24 decoreTitle">Rozpis a výsledky</h1>
-								<div class="menuSection">
-									<div class="tabsHeader">
-										<ul class="tabsHeader__menu">
-											<li>
-												<a class="active" href="#">všechny </a>
-											</li>
-											<li>
-												<a href="#"> A </a>
-											</li>
-											<li>
-												<a href="#"> B </a>
-											</li>
-											<li>
-												<a href="#">C</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-								<div class="matches-section__wrapper">
-									<h2 class="h3">Středa 28. 6. 2023</h2>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
-											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
-											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">18:00</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
+							<div class="main__content">
+								<section class="matches-section">
+									<h1 class="h1 mb-24 decoreTitle">Rozpis a výsledky</h1>
+									<div class="menuSection">
+										<div class="tabsHeader">
+											<ul class="tabsHeader__menu">
 												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
+													<a class="active" href="#">všechny </a>
 												</li>
 												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
+													<a href="#"> A </a>
+												</li>
+												<li>
+													<a href="#"> B </a>
+												</li>
+												<li>
+													<a href="#">C</a>
 												</li>
 											</ul>
 										</div>
 									</div>
-								</div>
-								<div class="matches-section__wrapper">
-									<h2 class="h3">Čtvrtek 1. 6. 2023</h2>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
+									<div class="matches-section__wrapper">
+										<h2 class="h3">Středa 28. 6. 2023</h2>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
 											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
 											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">1:0</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
+											<div class="col-xl-auto col-12 match__result text-center">18:00</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
+									<div class="matches-section__wrapper">
+										<h2 class="h3">Čtvrtek 1. 6. 2023</h2>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
 											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">1:0</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
 											</div>
 										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">0:0</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
+											</div>
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">0:0</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="matches-section__wrapper">
-									<h2 class="h3">Ctvrtek 27.6.2019</h2>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
+									<div class="matches-section__wrapper">
+										<h2 class="h3">Ctvrtek 27.6.2019</h2>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
 											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">1:2</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
 											</div>
 										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
+											</div>
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">1:3</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
-										<div class="col-xl-auto col-12 match__result text-center">1:2</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/gb.svg" loading="lazy" />
+												</div>
+											</div>
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">1:0</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
+									<div class="matches-section__wrapper">
+										<h2 class="h3">Útery 23.6.2019</h2>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
 											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">11:0</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
 											</div>
 										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/canada.svg" loading="lazy" />
+												</div>
+											</div>
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">1:3</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
-										<div class="col-xl-auto col-12 match__result text-center">1:3</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
+										<div class="match d-flex align-items-center row m-0 p-3">
+											<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
+												<div class="match__logo">
+													<img src="images/ico/cz.svg" loading="lazy" />
+												</div>
+												<div class="match__logo">
+													<img src="images/ico/gb.svg" loading="lazy" />
+												</div>
+											</div>
+											<div class="match__team col-12 col-xl mb-4 mb-xl-0">
+												<ul>
+													<li>1.kolo</li>
+													<li>Zimní stadion Česká Třebová</li>
+												</ul>
+												<h3 class="h4">Česká republika - Slovensko</h3>
+											</div>
+											<div class="col-xl-auto col-12 match__result text-center">2:6</div>
+											<div class="col-xl-auto col-12 text-xl-left">
+												<ul class="match__links">
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+													<li>
+														<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+																<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+															</svg> </a>
+													</li>
+												</ul>
+											</div>
 										</div>
 									</div>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
-											</div>
-											<div class="match__logo">
-												<img src="images/ico/gb.svg" loading="lazy" />
-											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">1:0</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
+								</section>
+							</div>
+							<aside class="aside">
+								<!-- Nav tabs -->
+								<div class="hp-tabs-section">
+									<ul class="tabs">
+										<li class="">
+											<a class="tab active" data-id="cz" href="#">CZ</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="vcera" href="#">včera</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="dnes" href="#">Dnes</a>
+										</li>
+										<li class="">
+											<a class=" tab" data-id="zitra" href="#">zítra</a>
+										</li>
+									</ul>
+									<div class="tabs-wrapper">
+										<!-- tab 1  -->
+										<div id="cz" class="tab-content tab-active">
+											<ul class="automatic filter-menu" role="tablist" aria-labelledby="tablist-1">
+
 												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
+													<button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1">všechny </button>
 												</li>
 												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
+													<button id="tab-2" type="button" role="tab" aria-selected="false" tabindex="-1" aria-controls="tabpanel-2"> A</button>
+												</li>
+												<li>
+													<button id="tab-3" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-3" tabindex="-1">B</button>
+												</li>
+												<li>
+													<button id="tab-4" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1">C </button>
+												</li>
+
+												<li>
+													<button id="tab-5" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-5" tabindex="-1">D </button>
 												</li>
 											</ul>
+											<div class="filter-content__wrapper">
+												<div class="filtr-container" id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13 <span>(pr)</span></div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/de.svg" /><br />Německo
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/de.svg" /> <br />Německo
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-5" role="tabpanel" tabindex="0" aria-labelledby="tab-5">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+											</div>
+
 										</div>
+
 									</div>
-								</div>
-								<div class="matches-section__wrapper">
-									<h2 class="h3">Útery 23.6.2019</h2>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
-											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
-											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">11:0</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M19 21v0a2 2 0 002-2v-6a1 1 0 00-1-1h-3v7a2 2 0 002 2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a2 2 0 002 2h14" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
-											</div>
-											<div class="match__logo">
-												<img src="images/ico/canada.svg" loading="lazy" />
-											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">1:3</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
-										</div>
-									</div>
-									<div class="match d-flex align-items-center row m-0 p-3">
-										<div class="match__logos col-12 col-xl-3 col-xxl-2 mb-4 mb-xl-0 justify-content-center">
-											<div class="match__logo">
-												<img src="images/ico/cz.svg" loading="lazy" />
-											</div>
-											<div class="match__logo">
-												<img src="images/ico/gb.svg" loading="lazy" />
-											</div>
-										</div>
-										<div class="match__team col-12 col-xl mb-4 mb-xl-0">
-											<ul>
-												<li>1.kolo</li>
-												<li>Zimní stadion Česká Třebová</li>
-											</ul>
-											<h3 class="h4">Česká republika - Slovensko</h3>
-										</div>
-										<div class="col-xl-auto col-12 match__result text-center">2:6</div>
-										<div class="col-xl-auto col-12 text-xl-left">
-											<ul class="match__links">
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M10.94 9.058l3.883 2.296a.75.75 0 010 1.291l-3.882 2.296a.75.75 0 01-1.132-.646V9.704a.75.75 0 011.132-.646v0z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path clip-rule="evenodd" d="M18 21H6a3 3 0 01-3-3V6a3 3 0 013-3h12a3 3 0 013 3v12a3 3 0 01-3 3z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-												<li>
-													<a href="#"> <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path clip-rule="evenodd" d="M14 20h5a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h5l2 2 2-2z" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-															<path d="M12.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M16.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354M8.177 11.823a.25.25 0 11-.354.354.25.25 0 11.354-.354" stroke="#23234A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-														</svg> </a>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</section>
+							</aside>
 						</div>
 					</main>
 					<footer class="footer">

@@ -191,13 +191,13 @@
 					<div class="topHeader">
 						<div class="topHeader__inner">
 							<div class="button-left">
-								<a href="#" id="show-menu"><img src="images/ico/menu.svg" /> Menu</a>
-								<a href="#" id="hide-menu"><img src="images/ico/menu.svg" /> Zavřít</a>
+								<a href="#" id="show-menu"><img src="images/ico/menu-blue.svg" /> Menu</a>
+								<a href="#" id="hide-menu"><img src="images/ico/xmark.svg" /> Zavřít</a>
 							</div>
 							<a href="#" class="topHeader__logo--mob" id="logo"><img src="images/ico/logo.svg" /></a>
 							<div class="button-right">
-								<a href="#" id="show-more">Více <img src="images/ico/plus-menu.svg" /></a>
-								<a href="#" id="hide-more">Zavřít <img src="images/ico/plus-menu.svg" /></a>
+								<a href="#" id="show-more">Rozpis zápasů <img src="images/ico/plus-menu-blue.svg" /></a>
+								<a href="#" id="hide-more">Zavřít <img src="images/ico/minus.svg" /></a>
 							</div>
 
 							<div class="topHeader__left">
@@ -221,484 +221,1200 @@
 
 					<main class="main" aria-label="Hlavní obsah">
 						<div class="main__row full-width">
-							<section class="archive-section">
-								<h1 class="h1 mb-24 decoreTitle">Články</h1>
-								<div class="menuSection">
-									<div class="tabsHeader">
-										<ul class="tabsHeader__menu">
-											<li>
-												<a class="active" href="#">všechny </a>
+							<div class="main__content">
+								<section class="archive-section">
+									<h1 class="h1 mb-24 decoreTitle">Články</h1>
+									<div class="menuSection">
+										<div class="tabsHeader">
+											<ul class="tabsHeader__menu">
+												<li>
+													<a class="active" href="#">všechny </a>
+												</li>
+												<li>
+													<a href="#">Doprovodný program</a>
+												</li>
+												<li>
+													<a href="#">Info z turnaje</a>
+												</li>
+												<li>
+													<a href="#">Reportáž</a>
+												</li>
+												<li>
+													<a href="#">Rozhovory</a>
+												</li>
+											</ul>
+										</div>
+										<div class="searchMenu">
+											<form action="">
+												<div class="row">
+													<div class="col-9">
+														<input type="text" placeholder="Vyhledejte v článcích podle názvu, datumu,..." />
+													</div>
+													<div class="col-3">
+														<button>Hledat</button>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+									<div class="archive-section__inner">
+										<ul class="row g-3 archive-section-js">
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
 											</li>
-											<li>
-												<a href="#">Doprovodný program</a>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
 											</li>
-											<li>
-												<a href="#">Info z turnaje</a>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
 											</li>
-											<li>
-												<a href="#">Reportáž</a>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
 											</li>
-											<li>
-												<a href="#">Rozhovory</a>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/post.jpeg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="col-xl-4 col-md-6">
+												<a href="#" class="news-section__item">
+													<img src="images/content/article-2.jpg" alt="news" />
+													<div class="news-section__info">
+														<ul class="news-section__tags">
+															<li>
+																<h4 class="h6 text-red">info z turnaje</h4>
+															</li>
+															<li>
+																<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
+															</li>
+														</ul>
+														<div class="news-section__title">
+															Kanada odhalila reprezentační soupisku pro nadcházející
+															mistrovství světa
+														</div>
+													</div>
+												</a>
 											</li>
 										</ul>
+										<button class="moreButton">Načíst starší články</button>
 									</div>
-									<div class="searchMenu">
-										<form action="">
-											<div class="row">
-												<div class="col-9">
-													<input type="text" placeholder="Vyhledejte v článcích podle názvu, datumu,..." />
-												</div>
-												<div class="col-3">
-													<button>Hledat</button>
-												</div>
-											</div>
-										</form>
-									</div>
-								</div>
-								<div class="archive-section__inner">
-									<ul class="row g-3 archive-section-js">
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
+								</section>
+							</div>
+							<aside class="aside">
+								<!-- Nav tabs -->
+								<div class="hp-tabs-section">
+									<ul class="tabs">
+										<li class="">
+											<a class="tab active" data-id="cz" href="#">CZ</a>
 										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
+										<li class="">
+											<a class=" tab" data-id="vcera" href="#">včera</a>
 										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
+										<li class="">
+											<a class=" tab" data-id="dnes" href="#">Dnes</a>
 										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/post.jpeg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
-										</li>
-										<li class="col-xl-4 col-md-6">
-											<a href="#" class="news-section__item">
-												<img src="images/content/article-2.jpg" alt="news" />
-												<div class="news-section__info">
-													<ul class="news-section__tags">
-														<li>
-															<h4 class="h6 text-red">info z turnaje</h4>
-														</li>
-														<li>
-															<p class="p3">24.1.2023 - Tomáš Vavroušek</p>
-														</li>
-													</ul>
-													<div class="news-section__title">
-														Kanada odhalila reprezentační soupisku pro nadcházející
-														mistrovství světa
-													</div>
-												</div>
-											</a>
+										<li class="">
+											<a class=" tab" data-id="zitra" href="#">zítra</a>
 										</li>
 									</ul>
-									<button class="moreButton">Načíst starší články</button>
-								</div>
-							</section>
+									<div class="tabs-wrapper">
+										<!-- tab 1  -->
+										<div id="cz" class="tab-content tab-active">
+											<ul class="automatic filter-menu" role="tablist" aria-labelledby="tablist-1">
+
+												<li>
+													<button id="tab-1" type="button" role="tab" aria-selected="true" aria-controls="tabpanel-1">všechny </button>
+												</li>
+												<li>
+													<button id="tab-2" type="button" role="tab" aria-selected="false" tabindex="-1" aria-controls="tabpanel-2"> A</button>
+												</li>
+												<li>
+													<button id="tab-3" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-3" tabindex="-1">B</button>
+												</li>
+												<li>
+													<button id="tab-4" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-4" tabindex="-1">C </button>
+												</li>
+
+												<li>
+													<button id="tab-5" type="button" role="tab" aria-selected="false" aria-controls="tabpanel-5" tabindex="-1">D </button>
+												</li>
+											</ul>
+											<div class="filter-content__wrapper">
+												<div class="filtr-container" id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/fin.svg" /><br />Finsko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13 <span>(pr)</span></div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/de.svg" /><br />Německo
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/de.svg" /> <br />Německo
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4">
+
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+												<div class="filtr-container" id="tabpanel-5" role="tabpanel" tabindex="0" aria-labelledby="tab-5">
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+
+															<li>
+																<a href="#" target="_blank" class="onlajny">onlajny.com</a>
+															</li>
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+														<ul class="buttons">
+															<li>
+																<a href="#" target="_blank" class="stream">stream</a>
+															</li>
+
+															<li>
+																<a href="#" class="report">Reportáž zápasu</a>
+															</li>
+														</ul>
+													</div>
+													<div class="game-box ">
+														<div class="game-box__top">
+															<div class="team1">
+																<div class="name">
+																	<img src="images/ico/1.svg" /><br />Česko
+																</div>
+															</div>
+															<div class="scoreBox">
+																<div class="score">0:13</div>
+																<div class="infoGame">
+																	A
+																	<br>
+																	LIBEREC
+																</div>
+															</div>
+															<div class="team2">
+																<div class="name">
+																	<img src="images/ico/4.svg" /> <br />Slovensko
+																</div>
+															</div>
+														</div>
+
+													</div>
+													<a href="#" class="btn mt-3 mx-auto ">Kompletní rozpis zápasů</a>
+												</div>
+											</div>
+
+										</div>
+
+									</div>
+							</aside>
 						</div>
 					</main>
 					<footer class="footer">

@@ -4,6 +4,9 @@
   min-width: 260px;
   position: relative;
   z-index: 9999;
+  @include media-breakpoint-down(xl) {
+    margin-left: -16px;
+  }
   &__sex {
     display: none;
 
@@ -45,9 +48,13 @@
   }
   &__nav {
     position: relative;
-    padding-top: 150px;
+    padding-top: 0px;
     height: 100%;
     padding-bottom: 170px;
+    padding-top: 160px;
+    @include media-breakpoint-down(xl) {
+      padding-top: 0;
+    }
     &::before {
       content: "";
       position: absolute;
@@ -80,7 +87,9 @@
     left: -14px;
     right: 0;
     transition: all 0.3s;
-
+    @include media-breakpoint-down(xl) {
+      display: none;
+    }
     &:hover {
       transform: scale(1.1);
     }
