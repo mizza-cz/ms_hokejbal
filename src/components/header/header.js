@@ -1,43 +1,33 @@
-$("#show-menu").click(function (e) {
-  e.preventDefault();
-  $("body").removeClass("show-more");
-  $("body").addClass("show-menu");
+$(document).ready(function () {
+  $("#show-menu").click(function (e) {
+    e.preventDefault();
+    $("body").removeClass("show-more").addClass("show-menu");
 
-  $("#show-more").hide();
-  $("#show-menu").hide();
-  $("#hide-menu").show();
-  $("#logo").hide();
-});
+    $("#show-more, #show-menu, #logo").hide();
+    $("#hide-menu").show().addClass("flex-display");
+  });
 
-$("#hide-menu").click(function (e) {
-  e.preventDefault();
-  $("body").removeClass("show-menu");
-  $("body").removeClass("show-more");
+  $("#hide-menu").click(function (e) {
+    e.preventDefault();
+    $("body").removeClass("show-menu show-more");
 
-  $("#show-more").show();
-  $("#show-menu").show();
-  $("#hide-menu").hide();
-  $("#logo").show();
-});
+    $("#show-more, #show-menu, #logo").show();
+    $("#hide-menu").hide().removeClass("flex-display");
+  });
 
-$("#show-more").click(function (e) {
-  e.preventDefault();
-  $("body").removeClass("show-menu");
-  $("body").addClass("show-more");
+  $("#show-more").click(function (e) {
+    e.preventDefault();
+    $("body").removeClass("show-menu").addClass("show-more");
 
-  $("#show-menu").hide();
-  $("#show-more").hide();
-  $("#hide-more").show();
-  $("#logo").hide();
-});
+    $("#show-menu, #show-more, #logo").hide();
+    $("#hide-more").show().addClass("flex-display");
+  });
 
-$("#hide-more").click(function (e) {
-  e.preventDefault();
-  $("body").removeClass("show-menu");
-  $("body").removeClass("show-more");
+  $("#hide-more").click(function (e) {
+    e.preventDefault();
+    $("body").removeClass("show-menu show-more");
 
-  $("#show-menu").show();
-  $("#show-more").show();
-  $("#hide-more").hide();
-  $("#logo").show();
+    $("#show-menu, #show-more, #logo").show();
+    $("#hide-more").hide().removeClass("flex-display");
+  });
 });

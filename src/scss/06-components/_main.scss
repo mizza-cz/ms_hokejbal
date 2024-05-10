@@ -11,6 +11,7 @@
     background-color: #f3f3f3;
     padding: 24px 0px 24px 24px;
     border-radius: 12px 0 0 0;
+
     @include media-breakpoint-down(xl) {
       padding: 20px 0;
       border-radius: 0;
@@ -30,11 +31,8 @@
     }
   }
   &__content {
-    max-width: 72.5%;
-    width: 100%;
-    flex: 0 0 72.5%;
-
     padding-right: 16px;
+    max-width: calc(100% - 340px);
     @include media-breakpoint-down(xl) {
       max-width: 100%;
       padding-right: 0;
@@ -42,9 +40,12 @@
     }
   }
   aside {
-    max-width: 27.5%;
-    width: 100%;
-    flex: 0 0 27.5%;
+    max-width: 21rem;
+    width: 21rem;
+    @include media-breakpoint-down(xl) {
+      flex: 100%;
+      width: 22rem;
+    }
   }
 }
 .wrapper {
