@@ -36,6 +36,9 @@
       object-fit: cover;
       transition: all 0.3s;
     }
+    .tag {
+      color: var(--color-light);
+    }
   }
   &__info {
     position: absolute;
