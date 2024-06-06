@@ -10,21 +10,14 @@ block main %}
         <div class="main__row">
           <div class="main__content">
             {% include "@components/topstory-section/topstory-section.twig" %}
-            {%
-              include "@components/news-section/news-section.twig" %}
-            {% include "@components/videos-section/videos-section.twig" %}
+            {% include "@components/news-section/news-section.twig" %} {%
+            include "@components/videos-section/videos-section.twig" %}
 
             <div class="row g-4">
               <div class="col-xxl-6">
                 <h3 class="h2 mb-3">Novinky</h3>
                 <div class="">
                   {% include "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
-                  "@components/news/news.twig" %} {% include
                   "@components/news/news.twig" %} {% include
                   "@components/news/news.twig" %} {% include
                   "@components/news/news.twig" %} {% include
