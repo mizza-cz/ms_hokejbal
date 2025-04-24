@@ -141,6 +141,10 @@
   display: flex;
   align-items: center;
   line-height: 108%;
+  @include media-breakpoint-down(md) {
+    font-size: 0;
+    line-height: 0;
+  }
 }
 .topHeader .button-left img {
   height: 20px;
@@ -167,6 +171,10 @@
   display: flex;
   align-items: center;
   line-height: 108%;
+  @include media-breakpoint-down(md) {
+    font-size: 0;
+    line-height: 0;
+  }
 }
 .topHeader .button-right img {
   height: 20px;
