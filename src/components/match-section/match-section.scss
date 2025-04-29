@@ -9,12 +9,21 @@
   @include media-breakpoint-down(md) {
     padding-bottom: 24px;
   }
+  &__status {
+    background-color: var(--color-dark-red);
+    padding: 4px 8px;
+    color: var(--color-light);
+    font-weight: 500;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
   &__top {
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     li {
       font-size: 12px;
       font-weight: 400;
@@ -215,4 +224,3 @@
 .icon-whistle {
   background-image: url("../images/ico/whistle.svg");
 }
- 
