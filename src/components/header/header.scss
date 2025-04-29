@@ -9,23 +9,37 @@
   }
   &__sex {
     display: none;
-
     text-align: left;
     width: 100%;
-    color: var(--color-red);
-    padding-left: 24px;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    text-decoration-color: transparent;
-    position: relative;
+
+    align-items: center;
     z-index: 10;
+    padding-left: 24px;
+    @include media-breakpoint-down(xl) {
+      display: flex;
+      margin-top: 12px;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    a {
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-decoration-color: transparent;
+      position: relative;
+      display: block;
+      padding: 0.25rem 0.5rem;
+      color: var(--color-light);
+      font-weight: 500;
+      border-radius: 0.375rem;
+      font-size: 0.875rem;
+      background-color: var(--blue);
+    }
+    .active {
+      background-color: var(--color-dark-red);
+    }
     &:hover {
       text-decoration-color: inherit;
-    }
-    @include media-breakpoint-down(xl) {
-      display: block;
-      margin-top: 12px;
     }
   }
   @include media-breakpoint-down(xl) {

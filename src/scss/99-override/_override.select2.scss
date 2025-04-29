@@ -71,7 +71,7 @@
 }
 .select2-results__options {
   font-size: 12px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   > li {
     padding: 4px 12px;
@@ -95,7 +95,7 @@
 }
 .select2-container .select2-selection--single .select2-selection__rendered {
   color: var(--color-light);
-  font-size: 16px;
+  font-size: 14px;
   padding: 0;
 }
 .select2-container--default .select2-selection--single {
@@ -105,10 +105,10 @@
   display: flex;
   align-items: center;
   background-color: #d72435;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 12px;
- 
-  font-weight: 700;
+
+  font-weight: 600;
   line-height: 0;
   padding: 4px 32px 2px 8px;
   @include media-breakpoint-down(lg) {
