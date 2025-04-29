@@ -2,6 +2,19 @@
   @include media-breakpoint-down(xl) {
     padding-top: 24px;
   }
+  .tabsHeader {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 16px;
+    a {
+      background: rgba(21, 43, 72, 0.1);
+      text-transform: capitalize;
+    }
+    .active {
+      background: var(--color-dark-red);
+    }
+  }
   .o-content table {
     white-space: nowrap;
     th,
