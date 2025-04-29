@@ -149,13 +149,18 @@
   }
 }
 .goals-time {
-  min-width: 52px;
+  min-width: 44px;
   position: relative;
   padding-right: 12px;
   &::after {
     content: "|";
     right: 0;
     position: absolute;
+  }
+}
+.goals {
+  li {
+    margin-bottom: 8px !important;
   }
 }
 

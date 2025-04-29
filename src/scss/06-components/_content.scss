@@ -43,7 +43,7 @@
       &::before {
         content: counter(item) ")";
         color: var(--color-dark-red);
-        font-weight: 700;
+        font-weight: 600;
         position: absolute;
         top: 0;
         left: 0;
@@ -117,19 +117,19 @@
 .o-content h4 {
   font-size: 18px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .h6,
 .o-content h6 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
 }
 .h5,
 .o-content h5 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   text-transform: uppercase;
   line-height: 120%;
@@ -146,7 +146,7 @@
 
 .perex {
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 28px;
 }
 
@@ -199,8 +199,8 @@
 }
 
 .text-sm {
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 12px !important;
+  line-height: 16px !important;
 }
 
 .text-md {
