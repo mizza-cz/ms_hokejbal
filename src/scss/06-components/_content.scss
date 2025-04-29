@@ -113,34 +113,6 @@
   }
 }
 
-.h1,
-.o-content h1 {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 44px;
-  color: var(--blue);
-  @include media-breakpoint-down(xxl) {
-    font-size: 32px;
-    line-height: 125%;
-  }
-}
-.h2,
-.o-content h2 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 32px;
-  color: var(--blue);
-  @include media-breakpoint-down(lg) {
-    font-size: 24px;
-    line-height: 125%;
-  }
-}
-.h3,
-.o-content h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 24px;
-}
 .h4,
 .o-content h4 {
   font-size: 18px;
@@ -201,4 +173,47 @@
   .perex {
     margin-bottom: 24px;
   }
+}
+
+.o-content h1,
+.h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  @include media-breakpoint-down(lg) {
+    font-size: 28px;
+    line-height: 34px;
+  }
+}
+.o-content h2,
+.h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.o-content h3,
+.h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.text-sm {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text-md {
+  font-size: 14px;
+  line-height: 20px;
+}
+.text-lg {
+  font-size: 18px;
+  line-height: 24px;
+}
+.perex {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+  color: var(--color-blue-700);
 }

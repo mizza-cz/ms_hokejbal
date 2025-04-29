@@ -47,7 +47,8 @@
       max-width: 738px;
       color: var(--color-light);
       @include media-breakpoint-down(md) {
-        font-size: 1.7rem;
+        font-size: 28px;
+        line-height: 36px;
       }
     }
     &-top {

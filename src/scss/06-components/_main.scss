@@ -42,9 +42,10 @@
   aside {
     max-width: 21rem;
     width: 21rem;
-    @include media-breakpoint-down(xl) {
+    @include media-breakpoint-down(md) {
       flex: 100%;
-      width: 22rem;
+      max-width: 100%;
+      width: 100%;
     }
   }
 }
