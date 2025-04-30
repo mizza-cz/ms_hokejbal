@@ -130,6 +130,10 @@
     line-height: 24px;
     z-index: 89;
     background: var(--blue);
+    min-width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .period--finish {
     right: 0;
