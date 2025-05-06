@@ -16,3 +16,31 @@
     color: var(--color-light);
   }
 }
+
+.btn.btn-stroke {
+  border-color: var(--color-light);
+  background-color: transparent;
+  color: var(--color-light);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  transition: color ba linear 0.3s;
+  width: fit-content;
+  padding: 12px 24px;
+  white-space: nowrap;
+  &:hover {
+    background-color: var(--color-red);
+    border-color: var(--color-red);
+    color: var(--color-light);
+    path {
+      fill: var(--color-light);
+    }
+  }
+}
