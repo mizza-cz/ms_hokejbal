@@ -76,6 +76,7 @@
   @include media-breakpoint-down(lg) {
     margin: 40px auto;
   }
+
   img {
     width: 100%;
     height: auto;
@@ -85,6 +86,11 @@
 }
 
 .articlePage {
+  .topstory-item {
+    @include media-breakpoint-down(md) {
+      border-radius: 0;
+    }
+  }
   .topstory-item::before {
     @include media-breakpoint-down(md) {
       display: none;
@@ -92,7 +98,10 @@
   }
   .topstory-item__img {
     position: relative;
-
+    @include media-breakpoint-down(md) {
+      border-radius: 0.75rem;
+      overflow: hidden;
+    }
     &::before {
       @include media-breakpoint-down(md) {
         content: "";
