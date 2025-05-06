@@ -133,10 +133,10 @@
 }
 
 .game-box .buttons .report:before {
-  background: url("../images/content/stats.png");
+  background: url("../images/ico/stats-r.svg");
 }
 .game-box .buttons .stream:before {
-  background: url("../images/content/live.png");
+  background: url("../images/ico/live.svg");
 }
 
 .game-box__top {
@@ -233,7 +233,7 @@ aside .report-box .round {
   margin-bottom: 15px;
 }
 aside .game-box {
-  background-color: var(--color-blue-600);
+  background-color: var(--blue);
   border-radius: 0.875rem;
   padding: 1.5rem;
 }

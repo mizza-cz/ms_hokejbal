@@ -116,4 +116,8 @@
       object-fit: cover;
     }
   }
+  &-img {
+    border-radius: 6px;
+    overflow: hidden;
+  }
 }
