@@ -27,7 +27,33 @@ block main %}
               </div>
               <div class="col-xxl-6">
                 <div class="hp-table__header">
-                  <h3 class="h2">Tabulky</h3>
+                  <div class="statsBox__title h2">
+                    <img
+                      srcset="images/ico/pohar.svg 22w"
+                      sizes="
+                           (min-width: 22px) 22w
+                         "
+                      width="22"
+                      height="18"
+                      alt=""
+                    />
+                    <a
+                      href="#"
+                      class="d-flex align-items-center gap-2 underline"
+                    >
+                      Tabulky
+                      <img
+                        srcset="images/ico/arrow-up-b.svg 13w"
+                        sizes="
+                             (min-width: 13px) 13w
+                           "
+                        width="13"
+                        height="13"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+
                   <ul class="hp-table__tabs nav nav-tabs">
                     <li>
                       <a class="active" href="#table1" data-toggle="tab"
@@ -52,8 +78,32 @@ block main %}
               </div>
             </div>
             <div class="mb-4">
-              <div class="hp-table__header">
-                <h3 class="h2">Statistiky</h3>
+              <div
+                class="d-flex flex-wrap gap-3 justify-content-between align-items-center mb-12"
+              >
+                <div class="statsBox__title h2">
+                  <img
+                    srcset="images/ico/stats-r.svg 22w"
+                    sizes="
+                        (min-width: 22px) 22w
+                      "
+                    width="22"
+                    height="18"
+                    alt=""
+                  />
+                  <a href="#" class="d-flex align-items-center gap-2 underline">
+                    Statistiky
+                    <img
+                      srcset="images/ico/arrow-up-b.svg 13w"
+                      sizes="
+                          (min-width: 13px) 13w
+                        "
+                      width="13"
+                      height="13"
+                      alt=""
+                    />
+                  </a>
+                </div>
               </div>
               {% include "@components/statsBox/statsBox.twig" %}
             </div>
