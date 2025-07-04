@@ -136,3 +136,15 @@ window.addEventListener("load", function () {
     new TabsAutomatic(tablists[i]);
   }
 });
+
+// $(".date-slider-section .filter-menu").slick({
+//   slidesToShow: 4,
+//   slidesToScroll: 1,
+//   arrows: true,
+//   infinite: false,
+//   prevArrow:
+//     ' <button class="slider__btn  slider__btnprev"><img src="images/ico/arrow-left.svg" alt = "" ></button>',
+//   nextArrow:
+//     ' <button class="slider__btn  slider__btnnext"><img src="images/ico/arrow-right.svg" alt = "" ></button>',
+//   responsive: [{ breakpoint: 768, settings: { slidesToShow: 4 } }],
+// });

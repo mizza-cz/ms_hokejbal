@@ -145,7 +145,7 @@
 }
 /* Style the tab content */
 
-aside .tab-content .game-box .buttons {
+aside .tabs-wrapper .game-box .buttons {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -157,7 +157,7 @@ aside .tab-content .game-box .buttons {
   }
 }
 
-aside .tab-content .game-box .team {
+aside .tabs-wrapper .game-box .team {
   width: 100%;
   font-size: 12px;
   line-height: 2.4;
@@ -441,7 +441,7 @@ aside .aside-box .nav-list .dropdown-item:hover:after {
   position: absolute;
   display: block !important;
   z-index: 10000;
-  top: 0px;
+  top: 16px;
   right: -16px;
   background: #fff;
   padding-right: 16px;
@@ -502,4 +502,19 @@ aside .aside-box .nav-list .dropdown-item:hover:after {
 }
 .filtr-container.is-hidden {
   display: none;
+}
+
+.date-slider-section {
+  padding-top: 24px;
+  max-width: 340px;
+  margin-left: auto;
+  @include media-breakpoint-down(xl) {
+    padding-top: 40px;
+  }
+
+  [role="tab"] {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 0.65rem;
+  }
 }
