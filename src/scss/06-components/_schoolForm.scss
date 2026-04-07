@@ -1,0 +1,53 @@
+.schoolForm {
+  max-width: 640px;
+  margin-bottom: 40px;
+  label {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    display: block;
+  }
+  input {
+    transition: all 0.25s;
+    outline: 2px solid transparent;
+    &:focus {
+      outline: 2px solid var(--light-blue);
+    }
+  }
+  .select2-container--default .select2-selection--single {
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 16px;
+  }
+  .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow
+    b {
+    margin-left: -12px;
+    margin-top: 0;
+  }
+  .select2-container {
+    max-width: 100%;
+  }
+
+  &-btn {
+    padding: 0 0.625rem;
+    transition: all 0.3s;
+    border: none;
+    color: var(--color-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    background: var(--light-blue);
+    &:hover {
+      background: var(--blue);
+    }
+  }
+}
