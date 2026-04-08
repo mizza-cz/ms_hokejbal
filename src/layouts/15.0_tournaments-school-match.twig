@@ -1,0 +1,170 @@
+{% extends "@components/base/base.twig" %} {% set title =
+"15.0_tournaments-school-match" %} {% block main %}
+
+<div class="container">
+  <div class="wrapper">
+    {% include "@components/header/header.twig" %}
+    <div class="wrapper__content">
+      {% include "@components/header/topHeader.twig" %}
+
+      <main class="main" aria-label="Hlavní obsah">
+        <div class="main__row">
+          <div class="main__content">
+            <section class="static-section">
+              <div class="o-content">
+                <h1>Školní zápasy na Mistrovství světa v hokejbale</h1>
+                <p>
+                  Možnost bezplatné návštěvy škol a školek na vybraná dopolední
+                  utkání ve dnech 22.6. – 24.6. (pondělí až středa – blok dvou
+                  utkání) v rámci Mistrovství světa v hokejbalu ve vítkovické
+                  Ostravar Aréně.
+                </p>
+                <p>
+                  <strong>Pondělí 22.6.2026<br /></strong>08:30 Kajmanské
+                  ostrovy – Indie (utkání B skupiny mužů)<br />10:45 - Slovensko
+                  – Kanada (utkání MS žen)
+                </p>
+                <p>
+                  <strong>Úterý 23.6.2026<br /></strong>08:30 Německo – Rakousko
+                  (utkání B skupiny mužů)<br />10:45 Velká Británie – Švýcarsko
+                  (utkání MS žen)
+                </p>
+                <p>
+                  <strong>Středa 24.6.2026<br /></strong>08:30 Francie – Velká
+                  Británie (utkání B skupiny mužů)<br />10:45 Česká republika –
+                  USA (utkání MS žen), zápas bude vysílán živě na programu ČT
+                  Sport Plus,
+                  <strong
+                    >snaha o překonání diváckého rekordu na ženský hokejbalový
+                    zápas (3500 diváků)</strong
+                  >
+                </p>
+                <h3>V rámci návštěvy zápasů:</h3>
+                <ul>
+                  <li>
+                    možnost vyzkoušet si hokejbal na třech mobilních hřištích ve
+                    fanzóně
+                  </li>
+                  <li>hokejbalová střelnice na přesnost</li>
+                  <li>soutěže o nevíce fandící školu (třídu)</li>
+                  <li>soutěže o nejlepší transparent</li>
+                  <li>přestávkové soutěže na hrací ploše</li>
+                  <li>
+                    pokud žák přijde posléze na odpolední program v daný den v
+                    doprovodu rodičů s ranním lístkem, dítě má vstup zdarma a
+                    rodiče mají vstup za 50%
+                  </li>
+                  <li>
+                    možnost spolupráce s Dopravním podnikem Ostrava v rámci
+                    svozu
+                  </li>
+                </ul>
+                <p>
+                  V případě otázek nás prosím kontaktujte na e-mailové adrese
+                  skoly@ostrava2026.cz
+                </p>
+                <h2>Přihlašovací fomulář</h2>
+                <form class="schoolForm" action="#" method="post">
+                  <div class="mb-3">
+                    <label for="school-name">Název školy</label>
+                    <input
+                      type="text"
+                      id="school-name"
+                      name="school_name"
+                      placeholder="Zadejte název školy"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="school-address">Adresa školy</label>
+                    <input
+                      type="text"
+                      id="school-address"
+                      name="school_address"
+                      placeholder="Zadejte adresu školy"
+                      required
+                    />
+                  </div>
+
+                  <div class="mb-3 mt-4 fw-semibold h6">Kontaktní osoba</div>
+
+                  <div class="mb-3">
+                    <label for="contact-name">Jméno a příjmení</label>
+                    <input
+                      type="text"
+                      id="contact-name"
+                      name="contact_name"
+                      placeholder="Zadejte jméno a příjmení"
+                      required
+                    />
+                  </div>
+                  <div class="row g-3 mb-3">
+                    <div class="col-sm-6">
+                      <label for="contact-phone">Telefon</label>
+                      <input
+                        type="tel"
+                        id="contact-phone"
+                        name="contact_phone"
+                        placeholder="Zadejte telefon"
+                        required
+                      />
+                    </div>
+                    <div class="col-sm-6">
+                      <label for="contact-email">E-mail</label>
+                      <input
+                        type="email"
+                        id="contact-email"
+                        name="contact_email"
+                        placeholder="Zadejte e-mail"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <div class="mb-3 row g-3 align-items-end">
+                    <div class="col-sm-8">
+                      <label for="tournament">Vybraný den </label>
+                      <select
+                        class="js-select w-100"
+                        id="tournament"
+                        name="tournament"
+                        required
+                      >
+                        <option value="">Vyberte den</option>
+                        <option value="">Pondělí 22. 6. 2026</option>
+                        <option value="">Úterý 23. 6. 2026</option>
+                        <option value="">Středa 24. 6. 2026</option>
+                      </select>
+                    </div>
+                    <div class="col-sm-4">
+                      <label for="person-count">Předpokládaný počet osob</label>
+                      <input
+                        type="tel"
+                        id="person-count"
+                        name="contact_phone"
+                        placeholder="Zadejte"
+                        required
+                      />
+                    </div>
+                  </div>
+
+                  <button class="schoolForm-btn mt-4" type="submit">
+                    Odeslat
+                  </button>
+                </form>
+                <div>
+                  <strong><br /></strong>
+                </div>
+                <p><br /></p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      {% include "@components/sliderPartners/sliderPartners.twig" %} {% include
+      "@components/footer/footer.twig" %}
+    </div>
+  </div>
+</div>
+{% endblock %}
