@@ -141,7 +141,7 @@
 
 .game-box__top {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 /* Style the tab content */
 
@@ -175,6 +175,7 @@ aside .tabs-wrapper .game-box .team {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: auto;
 }
 .scoreBox .score {
   display: flex;
@@ -237,6 +238,8 @@ aside .game-box {
   background-color: var(--blue);
   border-radius: 0.875rem;
   padding: 1.5rem;
+  min-height: 220px;
+  align-content: flex-end;
   .tag {
     color: var(--color-light);
     width: fit-content;
