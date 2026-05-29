@@ -239,7 +239,9 @@ aside .game-box {
   border-radius: 0.875rem;
   padding: 1.5rem;
   min-height: 220px;
-  align-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   .tag {
     color: var(--color-light);
     width: fit-content;
